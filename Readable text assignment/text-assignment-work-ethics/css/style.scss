@@ -1,0 +1,57 @@
+body {
+    background-color: #00ffe7;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+ 
+    margin: auto;
+    width: 65%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: #af3800;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.8em;
+    font-size: 20px;
+    text-indent: 25px;
+    color: #fd5200;
+}
+
+ol {
+    
+    padding-right: 25px;
+}
+
+ li {
+    line-height: 1.8em;
+    font-size: 20px;
+    padding: 10px;
+    color: #452103;
+    
+
+}
+
+cite {
+    text-decoration: underline;
+}
+
+@font-face{ 
+	font-family: 'arm-wrestler';
+	src: url(fonts/ArmWrestler-webfont.woff);
+    font-style: normal;
+    font-weight: 100;
+}
